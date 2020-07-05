@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kalma_Astaghfar"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            >
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_action_back"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/kalma5"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+
+    </Toolbar>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+
+            <TextView
+                android:id="@+id/kalma_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kalmaastaghfar"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/green"
+                android:padding="10dp"
+                android:layout_marginLeft="30dp"
+                />
+            <Button
+                android:id="@+id/play_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/play"
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/kalma_astaghfar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="
+اَسْتَغْفِرُ اللهَ رَبِّىْ مِنْ كُلِّ ذَنْۢبٍ اَذْنَبْتُهٗ عَمَدًا اَوْ خَطَا ًٔ سِرًّا اَوْ عَلَانِيَةً وَّاَتُوْبُ اِلَيْهِ مِنَ الذَّنْۢبِ الَّذِیْٓ اَعْلَمُ وَ مِنَ الذَّنْۢبِ الَّذِىْ لَآ اَعْلَمُ اِنَّكَ اَنْتَ عَلَّامُ الْغُيُوْبِ وَ سَتَّارُ الْعُيُوْبِ و َغَفَّارُ الذُّنُوْبِ وَ لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللهِ الْعَلِىِّ الْعَظِيْمِؕ"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:id="@+id/kalma_urdu_trns"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/k5"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/kalma_english_trns"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="“I seek forgiveness from Allah, my Lord, from every sin I committed  knowingly or unknowingly, secretly or openly, and I turn towards Him  from the sin that I know and from the sin that I do not know, Certainly  you, you (are) the knower of the hidden things and the Concealer (of) the  mistakes and the Forgiver (of) the sins. And (there is) no power and no  strength except from Allah, the Most High, the Most Great”.
+"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/share"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+
+                android:background="@drawable/share"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
